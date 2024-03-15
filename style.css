@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.titulo__header {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imagem{
+    padding: 0;
+    width: 288px;
+    height: 212px;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 8px;
+    color: #E5E5E5;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.input__image {
+    width: 288px;
+    height: 212px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+.form__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.input__texto {
+    width: 328px;
+    height: 56px;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 8px;
+    color: #E5E5E5;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input__descricao {
+    width: 417px;
+    height: 136px;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 8px;
+    color: #E5E5E5;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.estilo__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 295px;
+    width: 121px;
+    height: 56px;
+    border-radius: 13px;
+
+}
